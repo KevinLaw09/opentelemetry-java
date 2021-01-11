@@ -7,7 +7,7 @@
 
 
 我们使用 [GitHub Discussions](https://github.com/open-telemetry/opentelemetry-java/discussions)
-来获取支持或者讨论问题.请不要有任何负担，欢迎参与讨论.
+来获取支持或者讨论问题. 请不要有任何负担，欢迎参与讨论.
 
 ## Overview
 
@@ -30,7 +30,7 @@ OpenTelemetry是由OpenCensus和OpenTracing合二为一的项目.
 
 ## Requirements
 
-除非特殊说明之外，所有发布的artifacts支持Java 8及以上。查看[CONTRIBUTING.md](./CONTRIBUTING.md)
+除非特殊说明之外，所有发布的artifacts支持Java 8及以上. 查看[CONTRIBUTING.md](./CONTRIBUTING.md)
 获取关于开发过程中构建本项目的指导。
 
 ### Note about extensions
@@ -132,13 +132,12 @@ OpenTelemetry Java仍然在开发中. 发布的版本（Releases）并不保证�
 | OpenCensus Bridge           | N/A     |
 
 可参考项目 [milestones](https://github.com/open-telemetry/opentelemetry-java/milestones)
-获取即将到来的（upcoming）版本细节.在issues和milestones中描述的dates和features是基于目前
-情况的估计，可能会有所变化。
+获取即将到来的（upcoming）版本细节. 在issues和milestones中描述的dates和features是基于目前情况的估计，可能会有所变化。
 
 ### Summary
 
 我们计划将项目合二为一，为未来建立一个统一社区铺平道路（pave the path），这个社区服务
-tracing vendors，用户和library authors，帮助他们更好的管理应用。我们欢迎所有人提供反馈和建议!
+tracing vendors，users和library authors，帮助他们更好的管理应用. 我们欢迎所有人提供反馈和建议!
 
 ## Contributing
 
@@ -153,7 +152,7 @@ Approvers ([@open-telemetry/java-approvers](https://github.com/orgs/open-telemet
 - [Christian Neumüller](https://github.com/Oberon00), Dynatrace
 - [Carlos Alberto](https://github.com/carlosalberto), LightStep
 
-*更多有关approver的信息可见 [community repository](https://github.com/open-telemetry/community/blob/master/community-membership.md#approver).*
+*更多有关approver角色的信息可见 [community repository](https://github.com/open-telemetry/community/blob/master/community-membership.md#approver).*
 
 Maintainers ([@open-telemetry/java-maintainers](https://github.com/orgs/open-telemetry/teams/java-maintainers)):
 
@@ -161,7 +160,7 @@ Maintainers ([@open-telemetry/java-maintainers](https://github.com/orgs/open-tel
 - [John Watson](https://github.com/jkwatson), Splunk
 - [Anuraag Agrawal](https://github.com/anuraaga), AWS
 
-* 更多有关maintainer的信息可见 [community repository](https://github.com/open-telemetry/community/blob/master/community-membership.md#maintainer).*
+*更多有关maintainer角色的信息可见 [community repository](https://github.com/open-telemetry/community/blob/master/community-membership.md#maintainer).*
 
 ### 感谢所有参与贡献（have contributed）的人
 
