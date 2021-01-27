@@ -23,12 +23,11 @@
 
 OpenTelemetry能被用于intrument code以收集遥测数据（telemetry data）.可以前往[OpenTelemetry Website]了解更多.
 
-**Libraries** that want to export telemetry data using OpenTelemetry MUST only depend on the
-`opentelemetry-api` package and should never configure or depend on the OpenTelemetry SDK. The SDK
-configuration must be provided by **Applications** which should also depend on the
-`opentelemetry-sdk` package, or any other implementation of the OpenTelemetry API. This way,
-libraries will obtain a real implementation only if the user application is configured for it. For
-more details, check out the [Library Guidelines].
+如果**Libraries**想要使用OpenTelemetry来export telemetry data，必须仅仅依赖`opentelemetry-api`包
+千万不能依赖OpenTelemetry SDK。SDK的配置必须由**Applications**提供，而后者应该依赖`opentelemetry-sdk`包
+或者OpenTelemetry API的其他实现。
+这样，只有在用户application配置之后，libraries才能获得一个实际实现。
+更多细节可见[Library Guidelines]
 
 ## Set up
 第一步是获取`OpenTelemetry`接口实例的handle
